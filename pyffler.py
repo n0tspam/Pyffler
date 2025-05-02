@@ -1723,7 +1723,7 @@ def scan_file(filepath):
     return results
 
 
-def scan_share(share_path):
+def scan_share(share_path, output_file):
     """
     Recursively walk the share_path directory, scanning each file with the above logic.
     Print out findings to stdout.
